@@ -11,6 +11,7 @@ registerPlugin({
             component: DataExchangePage,
             menuLabel: 'Import / Export',
             menuIcon: SwapHorizIcon,
+            permission: 'data-exchange:manage',
         },
     ],
     i18nMessages: { fr: frMessages, en: enMessages },
